@@ -12,8 +12,8 @@ layout: default
   {% endfor %}
 
   <div class="pagination">
-    <a href="/blog/archives">Blog Archives</a>
-    <a href="/blog/categories">Categories</a>
+    <a href="/blog/archives">Archive</a>
+    <a href="/blog/categories">Tags</a>
 
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
@@ -21,7 +21,7 @@ layout: default
     <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Older</a>
+      <a href="{{ paginator.next_page_path }}" class="next">Earlier</a>
     {% endif %}
   </div>
 </div>
