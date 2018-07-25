@@ -1,14 +1,14 @@
-url: http://artsy.github.io
-title: Artsy Engineering
-subtitle: Discover fine engineering.
+url: https://theballot.com
+title: The Ballot
+subtitle: For Free Speech & Liberal Democracy.
 google_custom_search: 010245880960712892902:tnjd4ryb3ci
-google_analytics_tracking_id: UA-12450662-3
+### google_analytics_tracking_id: UA-XXXXXXXX-X
 permalink: /blog/:year/:month/:day/:title/
-baseurl: "" # the subpath of your site, e.g. /blog/
-twitter_username: ArtsyOpenSource
-github_username:  Artsy
+baseurl: "" # for a site subpath, e.g. /blog/
+twitter_username: ReadTheBallot
+github_username:  TheBallot
 
-disqus_short_name: artsy
+disqus_short_name: theballot
 disqus_show_comment_count: false
 
 exclude: [vendor]
@@ -36,14 +36,14 @@ category_dir: blog/categories
 authors:
   orta:
     name: Orta Therox
-    site: http://orta.io
+    site: https://orta.io
     twitter: orta
     github: orta
     byline: Code Janitor at Artsy, thinking about JS tooling.
 
   db:
     name: Daniel Doubrovkine
-    site: http://code.dblock.org
+    site: https://code.dblock.org
     twitter: dblockdotorg
     github: dblock
 
@@ -51,13 +51,13 @@ authors:
     name: Ash Furrow
     github: ashfurrow
     twitter: ashfurrow
-    site: http://ashfurrow.com
+    site: https://ashfurrow.com
 
   joey:
     name: Joey Aghion
     github: joeyAghion
     twitter: joeyAghion
-    site: http://joey.aghion.com
+    site: https://joey.aghion.com
 
   eloy:
     name: Eloy Durán
@@ -86,7 +86,7 @@ authors:
     name: Ilya Kavalerov
     github: ilyakava
     twitter: ilyakava
-    site: http://ilyakavalerov.com
+    site: https://ilyakavalerov.com
 
   craig:
     name: Craig Spaeth
@@ -102,7 +102,7 @@ authors:
     name: Anil Bawa-Cavia
     github: cavvia
     twitter: cavvia
-    site: http://cavvia.net
+    site: https://cavvia.net
 
   frank:
     name: Frank MacReery
@@ -111,25 +111,25 @@ authors:
     name: Gilbert Reimschüssel (gib)
     github: gib
     twitter: greims
-    site: http://shortforgilbert.com
+    site: https://shortforgilbert.com
 
   mattm:
     name: Matt McNierney
     github: mmcnierney14
     twitter: mmcnierney
-    site: http://mattmcnierney.wordpress.com
+    site: https://mattmcnierney.wordpress.com
 
   barry:
     name: Barry Hoggard
     github: bhoggard
     twitter: bhoggard
-    site: http://tristanmedia.com/
+    site: https://tristanmedia.com/
 
   maxim:
     name: Maxim Cramer
     github: mennenia
     twitter: mennenia
-    site: http://www.mennenia.com
+    site: https://www.mennenia.com
 
   alan:
     name: Alan Johnson
@@ -171,21 +171,21 @@ authors:
 
   artsy_engineering:
     name: The Artsy Engineering Team
-    site: http://artsy.github.io
+    site: https://artsy.github.io
     twitter: ArtsyOpenSource
 
   nik:
     name: Nik from Graphcool
-    site: http://graph.cool
+    site: https://graph.cool
     twitter: graphcool
 
   roop:
     name: Roop
-    site: http://anandarooproy.com
+    site: https://anandarooproy.com
 
   xtina:
     name: Chrinstina Thompson
-    site: http://christinasthompson.com/
+    site: https://christinasthompson.com/
     twitter: Xtina_Starr
     github: xtina-starr
 
@@ -200,7 +200,7 @@ authors:
 
   jonallured:
     name: Jon Allured
-    site: http://jonallured.com
+    site: https://jonallured.com
     twitter: jonallured
     github: jonallured
   
@@ -560,7 +560,7 @@ oss_projects:
       sources and to make it readily available in one place, kind-of like a cache!
     category: ruby
     link: artsy/garner
-    repository: http://github.com/artsy/garner
+    repository: https://github.com/artsy/garner
     created: Jun 17th, 2012
 
   - title: spidey
