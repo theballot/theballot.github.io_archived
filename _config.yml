@@ -2,7 +2,7 @@ url: https://theballot.com
 title: The Ballot
 subtitle: For Free Speech & Liberal Democracy.
 google_custom_search: 010245880960712892902:tnjd4ryb3ci
-### google_analytics_tracking_id: UA-XXXXXXXX-X
+google_analytics_tracking_id: UA-XXXXXXXX-X
 permalink: /blog/:year/:month/:day/:title/
 baseurl: "" # for a site subpath, e.g. /blog/
 twitter_username: ReadTheBallot
